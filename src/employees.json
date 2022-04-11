@@ -1,371 +1,363 @@
 {
-  "employee_name":"christian wiseman",
-  "business_title":"CEO",
-  "manager":"",
-  "region":"North America",
-  "department":"",
+  "employee_name": "christian wiseman",
+  "business_title": "CEO",
+  "manager": "",
+  "region": "North America",
+  "department": "",
   "contact": {
     "email": "christian_wiseman@company1.com",
     "tel": "972-3-6487623",
     "profile": "www.company1.com/profile/christianWiseman.html"
   },
   "profile_pic": "https://seattleheadshotpro.com/wp-content/uploads/2018/08/Thom-Seattle-Headshot-Pro-Professional-Headshots-corporate-headshots-seattle-500px.jpg",
-  "subordinates":
-  [
+  "subordinates": [
     {
-      "employee_name":"Paul Widhalm",
-      "business_title":"VP Analytics & Strategic Info",
-      "manager":"Christian Wiseman",
-      "region":"North America",
-      "department":"Analytics & Strategic Info",
+      "employee_name": "Paul Widhalm",
+      "business_title": "VP Analytics & Strategic Info",
+      "manager": "Christian Wiseman",
+      "region": "North America",
+      "department": "Analytics & Strategic Info",
       "contact": {
         "email": "",
         "tel": "972-3-6487624",
         "profile": "www.company1.com/profile/paulWidhalm.html"
       },
       "profile_pic": "https://solarisstudios.com/wp-content/uploads/2016/10/Houston-Business-Headshot.jpg",
-      "subordinates":
-      [
+      "subordinates": [
         {
-          "employee_name":"Laura De Shields",
-          "business_title":"Senior Analyst",
-          "manager":"Paul Widhalm",
-          "region":"North America",
-          "department":"Analytics & Strategic Info",
+          "employee_name": "Laura De Shields",
+          "business_title": "Senior Analyst",
+          "manager": "Paul Widhalm",
+          "region": "North America",
+          "department": "Analytics & Strategic Info",
           "contact": {
             "email": "laura_de_shields@company1.com",
             "tel": "972-3-6487625",
             "profile": "www.company1.com/profile/lauraDeShields.html"
           },
           "profile_pic": "https://www.smallbusinessbonfire.com/wp-content/uploads/2016/02/professional-headshot.jpg",
-          "subordinates":[]
+          "subordinates": []
         },
         {
-          "employee_name":"William Lyons",
-          "business_title":"VP Business Analytics",
-          "manager":"Paul Widhalm",
-          "region":"North America",
-          "department":"Analytics & Strategic Info",
+          "employee_name": "William Lyons",
+          "business_title": "VP Business Analytics",
+          "manager": "Paul Widhalm",
+          "region": "North America",
+          "department": "Analytics & Strategic Info",
           "contact": {
             "email": null,
             "tel": "972-3-6487626",
             "profile": "www.company1.com/profile/williamLyons.html"
           },
           "profile_pic": "https://i.pinimg.com/550x/ce/d8/4a/ced84a67302c60bd1abaaf9314064433.jpg",
-          "subordinates":
-          [
+          "subordinates": [
             {
-              "employee_name":"Andrés Marrero Pizarro",
-              "business_title":"IPL Portfolio Analyst",
-              "manager":"William Lyons",
-              "region":"Asia Pacific",
-              "department":"Analytics & Strategic Info",
+              "employee_name": "Andrés Marrero Pizarro",
+              "business_title": "IPL Portfolio Analyst",
+              "manager": "William Lyons",
+              "region": "Asia Pacific",
+              "department": "Analytics & Strategic Info",
               "contact": {
                 "email": "andrés_marrero_pizarro@company1.com",
                 "tel": "972-3-6487637",
                 "profile": "www.company1.com/profile/andrésMarreroPizarro.html"
               },
               "profile_pic": "https://www.smallbusinessbonfire.com/wp-content/uploads/2016/02/professional-headshot.jpg",
-              "subordinates":[]
+              "subordinates": []
             },
             {
-              "employee_name":"Abby Becker",
-              "business_title":"Business Analyst",
-              "manager":"William Lyons",
-              "region":"North America",
-              "department":"Analytics & Strategic Info",
+              "employee_name": "Abby Becker",
+              "business_title": "Business Analyst",
+              "manager": "William Lyons",
+              "region": "North America",
+              "department": "Analytics & Strategic Info",
               "contact": {
                 "email": "abby_becker@company1.com",
                 "tel": "972-3-6487638",
                 "profile": "www.company1.com/profile/abbyBecker.html"
               },
               "profile_pic": "https://i.pinimg.com/550x/ce/d8/4a/ced84a67302c60bd1abaaf9314064433.jpg",
-              "subordinates":[]
+              "subordinates": []
             },
             {
-              "employee_name":"Jeffrey Koung",
-              "business_title":"AVP Business & Data Analytics",
-              "manager":"William Lyons",
-              "region":"North America",
-              "department":"Analytics & Strategic Info",
+              "employee_name": "Jeffrey Koung",
+              "business_title": "AVP Business & Data Analytics",
+              "manager": "William Lyons",
+              "region": "North America",
+              "department": "Analytics & Strategic Info",
               "contact": {
                 "email": "jeffrey_koung@company1.com",
                 "tel": "972-3-6487639",
                 "profile": "www.company1.com/profile/jeffreyKoung.html"
               },
               "profile_pic": "https://angelgrayphotography.com/wp-content/uploads/2018/04/AGP_0844-copy.jpg",
-              "subordinates":[]
+              "subordinates": []
             }
           ]
         },
         {
-          "employee_name":"Steven Ketel",
-          "business_title":"SVP Data Analytics & Optimization",
-          "manager":"Paul Widhalm",
-          "region":"North America",
-          "department":"Analytics & Strategic Info",
+          "employee_name": "Steven Ketel",
+          "business_title": "SVP Data Analytics & Optimization",
+          "manager": "Paul Widhalm",
+          "region": "North America",
+          "department": "Analytics & Strategic Info",
           "contact": {
             "email": "steven_ketel@company1.com",
             "tel": "972-3-6487627",
             "profile": "www.company1.com/profile/stevenKetel.html"
           },
           "profile_pic": "https://angelgrayphotography.com/wp-content/uploads/2018/04/AGP_0844-copy.jpg",
-          "subordinates":
-          [
+          "subordinates": [
             {
-              "employee_name":"Bryan Santora",
-              "business_title":"Home Office Senior Flood Analyst",
-              "manager":"Steven Ketel",
-              "region":"North America",
-              "department":"Analytics & Strategic Info",
+              "employee_name": "Bryan Santora",
+              "business_title": "Home Office Senior Flood Analyst",
+              "manager": "Steven Ketel",
+              "region": "North America",
+              "department": "Analytics & Strategic Info",
               "contact": {
                 "email": "bryan_santora@company1.com",
                 "tel": "972-3-64876440",
                 "profile": "www.company1.com/profile/bryanSantora.html"
               },
               "profile_pic": "http://www.carmelstudiosphotography.com/wp-content/gallery/professional-headshots/Professional-Headshot-6.jpg",
-              "subordinates":[]
+              "subordinates": []
             },
             {
-              "employee_name":"Yi-Ping Huang",
-              "business_title":"Clerk",
-              "manager":"Steven Ketel",
-              "region":"Asia Pacific",
-              "department":"Analytics & Strategic Info",
+              "employee_name": "Yi-Ping Huang",
+              "business_title": "Clerk",
+              "manager": "Steven Ketel",
+              "region": "Asia Pacific",
+              "department": "Analytics & Strategic Info",
               "contact": {
                 "email": "yi-ping_huang@company1.com",
                 "tel": "972-3-6487641",
                 "profile": "www.company1.com/profile/yiPingHuang.html"
               },
               "profile_pic": "https://ritazietsma.com/wp-content/uploads/2020/01/Professional-Headshot.jpg",
-              "subordinates":[]
+              "subordinates": []
             },
             {
-              "employee_name":"Catalina Merchan",
-              "business_title":"Gerente de Riesgos",
-              "manager":"Steven Ketel",
-              "region":"Latin America",
-              "department":"Analytics & Strategic Info",
+              "employee_name": "Catalina Merchan",
+              "business_title": "Gerente de Riesgos",
+              "manager": "Steven Ketel",
+              "region": "Latin America",
+              "department": "Analytics & Strategic Info",
               "contact": {
                 "email": "catalina_merchan@company1.com",
                 "tel": "972-3-6487642",
                 "profile": "www.company1.com/profile/catalinaMerchan.html"
               },
               "profile_pic": "https://i.pinimg.com/474x/77/fc/a9/77fca9754a1v1fbd15aee50d44bd317e9--doctor-of-dental-surgery-dental-services.jpg",
-              "subordinates":[]
+              "subordinates": []
             },
             {
-              "employee_name":"Maxwell Beaumont",
-              "business_title":"Business Analytics - Sr. Data Analyst",
-              "manager":"Steven Ketel",
-              "region":"North America",
-              "department":"Analytics & Strategic Info",
+              "employee_name": "Maxwell Beaumont",
+              "business_title": "Business Analytics - Sr. Data Analyst",
+              "manager": "Steven Ketel",
+              "region": "North America",
+              "department": "Analytics & Strategic Info",
               "contact": {
                 "email": "maxwell_beaumont@company1.com",
                 "tel": "972-3-6487643",
                 "profile": "www.company1.com/profile/maxwellBeaumont.html"
               },
               "profile_pic": "https://qph.fs.quoracdn.net/main-qimg-7fb93146f5e4e470f5a590d2fc38be3b",
-              "subordinates":[]
+              "subordinates": []
             },
             {
-              "employee_name":"Chandru Kumaresan",
-              "business_title":"Associate - Data Projects",
-              "manager":"Steven Ketel",
-              "region":"Asia Pacific",
-              "department":"Analytics & Strategic Info",
+              "employee_name": "Chandru Kumaresan",
+              "business_title": "Associate - Data Projects",
+              "manager": "Steven Ketel",
+              "region": "Asia Pacific",
+              "department": "Analytics & Strategic Info",
               "contact": {
                 "email": "chandru_kumaresan@company1.com",
                 "tel": null,
                 "profile": "www.company1.com/profile/chandruKumaresan.html"
               },
               "profile_pic": "https://lh3.googleusercontent.com/proxy/y_qvPKEjCvReKmBIZiYILe1weqDktEYVC4mpb7dnHrxgYhrCO_lp7AZpuDOUojdpy94Rv_g-BztDT1-j316uqUySqb6kEzf1Zt4O1Teg03NSSn2SVMbeMQHNp4y_",
-              "subordinates":[]
+              "subordinates": []
             }
           ]
         },
         {
-          "employee_name":"Megan Kiessling",
-          "business_title":"Business Analyst - Westchester",
-          "manager":"Paul Widhalm",
-          "region":"North America",
-          "department":"Analytics & Strategic Info",
+          "employee_name": "Megan Kiessling",
+          "business_title": "Business Analyst - Westchester",
+          "manager": "Paul Widhalm",
+          "region": "North America",
+          "department": "Analytics & Strategic Info",
           "contact": {
             "email": "megan_kiessling@company1.com",
             "tel": "972-3-6487628",
             "profile": "www.company1.com/profile/meganKiessling.html"
           },
           "profile_pic": "http://www.carmelstudiosphotography.com/wp-contents/gallery/professional-headshots/Professional-Headshot-6.jpg",
-          "subordinates":
-          [
+          "subordinates": [
             {
-              "employee_name":"Jothi Tamizharasan Kaliyamoorthy",
-              "business_title":"Senior Associate - Data Projects",
-              "manager":"Megan Kiessling",
-              "region":"Asia Pacific",
-              "department":"Analytics & Strategic Info",
+              "employee_name": "Jothi Tamizharasan Kaliyamoorthy",
+              "business_title": "Senior Associate - Data Projects",
+              "manager": "Megan Kiessling",
+              "region": "Asia Pacific",
+              "department": "Analytics & Strategic Info",
               "contact": {
                 "email": "jothi_kaliyamoorthy@company1.com",
                 "tel": "972-3-6487645",
                 "profile": "www.company1.com/profile/jothiKaliyamoorthy.html"
               },
               "profile_pic": "https://i.pinimg.cm/550x/ce/d8/4a/ced84a67302c60bd1abaaf9314064433.jpg",
-              "subordinates":
-              [
+              "subordinates": [
                 {
-                  "employee_name":"Suresh Amalraj",
-                  "business_title":"Senior Associate - Data Projects",
-                  "manager":"Jothi Tamizharasan Kaliyamoorthy",
-                  "region":"Asia Pacific",
-                  "department":"Analytics & Strategic Info",
+                  "employee_name": "Suresh Amalraj",
+                  "business_title": "Senior Associate - Data Projects",
+                  "manager": "Jothi Tamizharasan Kaliyamoorthy",
+                  "region": "Asia Pacific",
+                  "department": "Analytics & Strategic Info",
                   "contact": {
                     "email": "suresh_amalraj@company1.com",
                     "tel": "972-3-64876446",
                     "profile": "www.company1.com/profile/sureshAmalraj.html"
                   },
                   "profile_pic": null,
-                  "subordinates":[]
+                  "subordinates": []
                 },
                 {
-                  "employee_name":"Rekha Kishore",
-                  "business_title":"Senior Associate - Actuarial",
-                  "manager":"Jothi Tamizharasan Kaliyamoorthy",
-                  "region":"Asia Pacific",
-                  "department":"Analytics & Strategic Info",
+                  "employee_name": "Rekha Kishore",
+                  "business_title": "Senior Associate - Actuarial",
+                  "manager": "Jothi Tamizharasan Kaliyamoorthy",
+                  "region": "Asia Pacific",
+                  "department": "Analytics & Strategic Info",
                   "contact": {
                     "tel": "972-3-6487647",
                     "profile": "www.company1.com/profile/rekhaKishore.html"
                   },
                   "profile_pic": "https://seattleheadshotpro.com/wp-content/uploads/2018/08/Thom-Seattle-Headshot-Pro-Professional-Headshots-corporate-headshots-seattle-500px.jpg",
-                  "subordinates":[]
+                  "subordinates": []
                 },
                 {
-                  "employee_name":"Kris Webster",
-                  "business_title":"AVP Data Analytics",
-                  "manager":"Jothi Tamizharasan Kaliyamoorthy",
-                  "region":"North America",
-                  "department":"Analytics & Strategic Info",
+                  "employee_name": "Kris Webster",
+                  "business_title": "AVP Data Analytics",
+                  "manager": "Jothi Tamizharasan Kaliyamoorthy",
+                  "region": "North America",
+                  "department": "Analytics & Strategic Info",
                   "contact": {
                     "email": "kris_webster@company1.com",
                     "tel": "972-58-7634523",
                     "profile": "www.company1.com/profile/krisWebster.html"
                   },
                   "profile_pic": "https://solarisstudios.com/wp-content/uploads/2016/10/Houston-Business-Headshot.jpg",
-                  "subordinates":[]
+                  "subordinates": []
                 }
               ]
             }
           ]
         },
         {
-          "employee_name":"Duncan Wheeler",
-          "business_title":"Underwriting Business Analyst",
-          "manager":"Paul Widhalm",
-          "region":"Europe",
-          "department":"Analytics & Strategic Info",
+          "employee_name": "Duncan Wheeler",
+          "business_title": "Underwriting Business Analyst",
+          "manager": "Paul Widhalm",
+          "region": "Europe",
+          "department": "Analytics & Strategic Info",
           "contact": {
             "email": "duncan_wheeler@company1.com",
             "tel": "",
             "profile": "www.company1.com/profile/duncanWheeler.html"
           },
           "profile_pic": "https://ritazietsma.com/wp-content/uploads/2020/01/Professional-Headshot.jpg",
-          "subordinates":
-          [
+          "subordinates": [
             {
-              "employee_name":"Adam Ben-Avi",
-              "business_title":"AVP Claims Business Intelligence and Analytics",
-              "manager":"Duncan Wheeler",
-              "region":"North America",
-              "department":"Analytics & Strategic Info",
+              "employee_name": "Adam Ben-Avi",
+              "business_title": "AVP Claims Business Intelligence and Analytics",
+              "manager": "Duncan Wheeler",
+              "region": "North America",
+              "department": "Analytics & Strategic Info",
               "contact": {
                 "tel": "972-3-6487630",
                 "profile": "www.company1.com/profile/adamBenAvi.html"
               },
               "profile_pic": "https://i.pinimg.com/474xx/77/fc/a9/77fca9754a11fbd15aee50d44bd317e9--doctor-of-dental-surgery-dental-services.jpg",
-              "subordinates":[]
+              "subordinates": []
             },
             {
-              "employee_name":"Esthela Amelia Rivera",
-              "business_title":"Portfolio and Analytics Manager",
-              "manager":"Duncan Wheeler",
-              "region":"Asia Pacific",
-              "department":"Analytics & Strategic Info",
+              "employee_name": "Esthela Amelia Rivera",
+              "business_title": "Portfolio and Analytics Manager",
+              "manager": "Duncan Wheeler",
+              "region": "Asia Pacific",
+              "department": "Analytics & Strategic Info",
               "contact": {
                 "email": "esthela_rivera@company1.com",
                 "profile": "www.company1.com/profile/esthelaRivera.html"
               },
               "profile_pic": "https://qph.fs.quoracdn.net/main-qimg-7fb93146f5e4e470f5a590d2fc38be3b",
-              "subordinates":[]
+              "subordinates": []
             },
             {
-              "employee_name":"Samathara Briscoe",
-              "business_title":"Senior Business Intelligence Analyst COG",
-              "manager":"Duncan Wheeler",
-              "region":"North America",
-              "department":"Analytics & Strategic Info",
+              "employee_name": "Samathara Briscoe",
+              "business_title": "Senior Business Intelligence Analyst COG",
+              "manager": "Duncan Wheeler",
+              "region": "North America",
+              "department": "Analytics & Strategic Info",
               "contact": {
                 "email": "samathara_briscoe@company1.com",
                 "tel": "972-3-6487632",
                 "profile": "www.company1.com/profile/samatharaBriscoe.html"
               },
               "profile_pic": "https://lh3.googleusercontent.com/proxy/y_qvPKEjCvReKmBIZiYILe1weqDktEYVC4mpb7dnHrxgYhrCO_lp7AZpuDOUojdpy94Rv_g-BztDT1-j316uqUySqb6kEzf1Zt4O1Teg03NSSn2SVMbeMQHNp4y_",
-              "subordinates":[]
+              "subordinates": []
             },
             {
-              "employee_name":"Ellen Traquair",
-              "business_title":"Sr Mgr Data Analytics",
-              "manager":"Duncan Wheeler",
-              "region":"North America",
-              "department":"Analytics & Strategic Info",
+              "employee_name": "Ellen Traquair",
+              "business_title": "Sr Mgr Data Analytics",
+              "manager": "Duncan Wheeler",
+              "region": "North America",
+              "department": "Analytics & Strategic Info",
               "contact": {
                 "email": "ellen_traquair@company1.com",
                 "tel": "972-3-6487633",
                 "profile": "www.company1.com/profile/ellenTraquair.html"
               },
               "profile_pic": "https://i.pinimg.cm/550x/ce/d8/4a/ced84a67302c60bd1abaaf9314064433.jpg",
-              "subordinates":[]
+              "subordinates": []
             },
             {
-              "employee_name":"Coral Atoria",
-              "business_title":"Senior Analytics Specialist",
-              "manager":"Duncan Wheeler",
-              "region":"North America",
-              "department":"Analytics & Strategic Info",
+              "employee_name": "Coral Atoria",
+              "business_title": "Senior Analytics Specialist",
+              "manager": "Duncan Wheeler",
+              "region": "North America",
+              "department": "Analytics & Strategic Info",
               "contact": {
                 "email": "coral_atoria@company1.com",
                 "tel": "972-3-6487634",
                 "profile": "www.company1.com/profile/coralAtoria.html"
               },
               "profile_pic": null,
-              "subordinates":
-              [
+              "subordinates": [
                 {
-                  "employee_name":"Luis Oyarce",
-                  "business_title":"Claims Data Manager COG",
-                  "manager":"Coral Atoria",
-                  "region":"North America",
-                  "department":"Analytics & Strategic Info",
+                  "employee_name": "Luis Oyarce",
+                  "business_title": "Claims Data Manager COG",
+                  "manager": "Coral Atoria",
+                  "region": "North America",
+                  "department": "Analytics & Strategic Info",
                   "contact": {
                     "email": "luis_oyarce@company1.com",
                     "tel": "972-3-6487635",
                     "profile": "www.company1.com/profile/luisOyarce.html"
                   },
                   "profile_pic": "https://seattleheadshotpro.com/wp-content/uploads/2018/08/Thom-Seattle-Headshot-Pro-Professional-Headshots-corporate-headshots-seattle-500px.jpg",
-                  "subordinates":[]
+                  "subordinates": []
                 },
                 {
-                  "employee_name":"Steven Miller",
-                  "business_title":"Sr. Business Intelligence Analyst COG Claims",
-                  "manager":"Coral Atoria",
-                  "region":"North America",
-                  "department":"Analytics & Strategic Info",
+                  "employee_name": "Steven Miller",
+                  "business_title": "Sr. Business Intelligence Analyst COG Claims",
+                  "manager": "Coral Atoria",
+                  "region": "North America",
+                  "department": "Analytics & Strategic Info",
                   "contact": {
                     "email": "steven_miller@company1.com",
                     "tel": "972-3-6487636",
                     "profile": "www.company1.com/profile/stevenMiller.html"
                   },
                   "profile_pic": "https://solarisstudios.com/wp-content/uploads/2016/10/Houston-Business-Headshot.jpg",
-                  "subordinates":[]
+                  "subordinates": []
                 }
               ]
             }
@@ -374,703 +366,687 @@
       ]
     },
     {
-      "employee_name":"Richard Bradley",
-      "business_title":"VP Asset/Investment Management",
-      "manager":"Christian Wiseman",
-      "region":"North America",
-      "department":"Asset/Investment management",
+      "employee_name": "Richard Bradley",
+      "business_title": "VP Asset/Investment Management",
+      "manager": "Christian Wiseman",
+      "region": "North America",
+      "department": "Asset/Investment management",
       "contact": {
         "email": "richard_bradley@company1.com",
         "tel": "972-58-7634524",
         "profile": "www.company1.com/profile/richardBradley.html"
       },
       "profile_pic": "https://www.smallbusinessbonfire.com/wp-content/uploads/2016/02/professional-headshot.jpg",
-      "subordinates":
-      [
+      "subordinates": [
         {
-          "employee_name":"Yong-Kyoo Rim",
-          "business_title":"SVP Planning & Capital",
-          "manager":"Richard Bradley",
-          "region":"North America",
-          "department":"Asset/Investment Management",
+          "employee_name": "Yong-Kyoo Rim",
+          "business_title": "SVP Planning & Capital",
+          "manager": "Richard Bradley",
+          "region": "North America",
+          "department": "Asset/Investment Management",
           "profile_pic": "https://i.pinimg.com/550x/ce/d8/4a/ced84a67302c60bd1abaaf9314064433.jpg",
-          "subordinates":
-          [
+          "subordinates": [
             {
-              "employee_name":"Sung Eun Cho",
-              "business_title":"General Account Investment Manager",
-              "manager":"Yong-Kyoo Rim",
-              "region":"Asia Pacific",
-              "department":"asset/Investment Management",
+              "employee_name": "Sung Eun Cho",
+              "business_title": "General Account Investment Manager",
+              "manager": "Yong-Kyoo Rim",
+              "region": "Asia Pacific",
+              "department": "asset/Investment Management",
               "contact": {
                 "email": "sung_eun_cho@company1.com",
                 "tel": "972-58-7634529",
                 "profile": "www.company1.com/profile/sungEunCho.html"
               },
               "profile_pic": "https://i.pinimg.com/474x/77/fc/a9/77fca9754a11fbd15aee50d44bd317e9--doctor-of-dental-surgery-dental-services.jpg",
-              "subordinates":
-              [
+              "subordinates": [
                 {
-                  "employee_name":"Thi Hong Anh Dinh",
-                  "business_title":"Senior Supervisor Investment Analysis",
-                  "manager":"Sung Eun Cho",
-                  "region":"Asia Pacific",
-                  "department":"Asset/Investment Management",
+                  "employee_name": "Thi Hong Anh Dinh",
+                  "business_title": "Senior Supervisor Investment Analysis",
+                  "manager": "Sung Eun Cho",
+                  "region": "Asia Pacific",
+                  "department": "Asset/Investment Management",
                   "contact": {
                     "email": "thi_hong_anh_dinh@company1.com",
                     "tel": "972-58-7634533",
                     "profile": "www.company1.com/profile/thiHongAnhDinh.html"
                   },
-                  "subordinates":[]
+                  "subordinates": []
                 }
               ]
             },
             {
-              "employee_name":"Hyun Joo Lee",
-              "business_title":"Seprate Account Investment Team Leader",
-              "manager":"Yong-Kyoo Rim",
-              "region":"Asia Pacific",
-              "department":"Asset/Investment management",
+              "employee_name": "Hyun Joo Lee",
+              "business_title": "Seprate Account Investment Team Leader",
+              "manager": "Yong-Kyoo Rim",
+              "region": "Asia Pacific",
+              "department": "Asset/Investment management",
               "contact": {
                 "email": "hyun_joo_lee@company1.com",
                 "tel": "972-58-7634530",
                 "profile": "www.company1.com/profile/hyunJooLee.html"
               },
               "profile_pic": "https://qph.fs.quoracdn.net/main-qimg-7fb93146f5e4e470f5a590d2fc38be3b",
-              "subordinates":[]
+              "subordinates": []
             },
             {
-              "employee_name":"Yueh Ming Wu",
-              "business_title":"Sub-Manager",
-              "manager":"Yong-Kyoo Rim",
-              "region":"Asia Pacific",
-              "department":"Asset/Investment Management",
+              "employee_name": "Yueh Ming Wu",
+              "business_title": "Sub-Manager",
+              "manager": "Yong-Kyoo Rim",
+              "region": "Asia Pacific",
+              "department": "Asset/Investment Management",
               "contact": {
                 "email": "yueh_ming_wu@company1.com",
                 "tel": "972-58-7634531",
                 "profile": "www.company1.com/profile/yuehMingWu.html"
               },
               "profile_pic": "https://lh3.googleusercontent.com/proxy/y_qvPKEjCvReKmBIZiYILe1weqDktEYVC4mpb7dnHrxgYhrCO_lp7AZpuDOUojdpy94Rv_g-BztDT1-j316uqUySqb6kEzf1Zt4O1Teg03NSSn2SVMbeMQHNp4y_",
-              "subordinates":[]
+              "subordinates": []
             },
             {
-              "employee_name":"Shao Hsuan Sung",
-              "business_title":"Assistant Manager",
-              "manager":"Yong-Kyoo Rim",
-              "region":"Asia Pacific",
-              "department":"Asset/Investment Management",
+              "employee_name": "Shao Hsuan Sung",
+              "business_title": "Assistant Manager",
+              "manager": "Yong-Kyoo Rim",
+              "region": "Asia Pacific",
+              "department": "Asset/Investment Management",
               "contact": {
                 "email": "shao_hsuan_sung@company1.com",
                 "tel": "972-58-7634532",
                 "profile": "www.company1.com/profile/shaoHsuanSung.html"
               },
               "profile_pic": "https://i.pinimg.cm/550x/ce/d8/4a/ced84a67302c60bd1abaaf9314064433.jpg",
-              "subordinates":[]
+              "subordinates": []
             }
           ]
         },
         {
-          "employee_name":"Joseph Delle Femine",
-          "business_title":"VP Risk & Portfolio Management",
-          "manager":"Richard Bradley",
-          "region":"North America",
-          "department":"Asset/Investment Management",
+          "employee_name": "Joseph Delle Femine",
+          "business_title": "VP Risk & Portfolio Management",
+          "manager": "Richard Bradley",
+          "region": "North America",
+          "department": "Asset/Investment Management",
           "contact": {
             "email": "joseph_femine@company1.com",
             "tel": "972-58-7634526",
             "profile": "www.company1.com/profile/josephFemine.html"
           },
           "profile_pic": "https://angelgrayphotography.com/wp-content/uploads/2018/04/AGP_0844-copy.jpg",
-          "subordinates":
-          [
+          "subordinates": [
             {
-              "employee_name":"Ju Jin Lee",
-              "business_title":"Seprate Account Investment Sr.Manager",
-              "manager":"Joseph Delle Femine",
-              "region":"Asia Pacific",
-              "department":"Asset/Investment Management",
+              "employee_name": "Ju Jin Lee",
+              "business_title": "Seprate Account Investment Sr.Manager",
+              "manager": "Joseph Delle Femine",
+              "region": "Asia Pacific",
+              "department": "Asset/Investment Management",
               "contact": {
                 "email": "ju_jin_lee@company1.com",
                 "tel": "972-58-7634534",
                 "profile": "www.company1.com/profile/juJinLee.html"
               },
               "profile_pic": "https://seattleheadshotpro.com/wp-content/uploads/2018/08/Thom-Seattle-Headshot-Pro-Professional-Headshots-corporate-headshots-seattle-500px.jpg",
-              "subordinates":[]
+              "subordinates": []
             },
             {
-              "employee_name":"María Rebeca Hinojosa",
-              "business_title":"Investment Management",
-              "manager":"Joseph Delle Femine",
-              "region":"Latin America",
-              "department":"Asset/Investment Management",
+              "employee_name": "María Rebeca Hinojosa",
+              "business_title": "Investment Management",
+              "manager": "Joseph Delle Femine",
+              "region": "Latin America",
+              "department": "Asset/Investment Management",
               "contact": {
                 "email": "maría_hinojosa@company1.com",
                 "tel": "972-58-7634535",
                 "profile": "www.company1.com/profile/maríaHinojosa.html"
               },
               "profile_pic": "https://solarisstudios.com/wp-content/uploads/2016/10/Houston-Business-Headshot.jpg",
-              "subordinates":[]
+              "subordinates": []
             },
             {
-              "employee_name":"Christopher Ledezma",
-              "business_title":"Investment Management Analyst",
-              "manager":"Joseph Delle Femine",
-              "region":"Latin America",
-              "department":"Asset/Investment Management",
+              "employee_name": "Christopher Ledezma",
+              "business_title": "Investment Management Analyst",
+              "manager": "Joseph Delle Femine",
+              "region": "Latin America",
+              "department": "Asset/Investment Management",
               "contact": {
                 "email": "christopher_ledezma@company1.com",
                 "tel": "972-58-7634536",
                 "profile": "www.company1.com/profile/christopherLedezma.html"
               },
               "profile_pic": "https://www.smallbusinessbonfire.com/wp-content/uploads/2016/02/professional-headshot.jpg",
-              "subordinates":[]
+              "subordinates": []
             }
           ]
         },
         {
-          "employee_name":"Derek Tsui",
-          "business_title":"VP Risk & Portfolio Management",
-          "manager":"Richard Bradley",
-          "region":"North America",
-          "department":"Asset/investment Management",
+          "employee_name": "Derek Tsui",
+          "business_title": "VP Risk & Portfolio Management",
+          "manager": "Richard Bradley",
+          "region": "North America",
+          "department": "Asset/investment Management",
           "contact": {
             "email": "derek_tsui@company1.com",
             "tel": "972-58-7634527",
             "profile": "www.company1.com/profile/derekTsui.html"
           },
           "profile_pic": "http://www.carmelstudiosphotography.com/wp-content/gallery/professional-headshots/Professional-Headshot-6.jpg",
-          "subordinates":
-          [
+          "subordinates": [
             {
-              "employee_name":"Karen Mallari",
-              "business_title":"Senior Support Officer",
-              "manager":"Derek Tsui",
-              "region":"Asia Pacific",
-              "department":"Asset/Investment Management",
+              "employee_name": "Karen Mallari",
+              "business_title": "Senior Support Officer",
+              "manager": "Derek Tsui",
+              "region": "Asia Pacific",
+              "department": "Asset/Investment Management",
               "contact": {
                 "email": "karen_mallari@company1.com",
                 "tel": "972-58-7634537",
                 "profile": "www.company1.com/profile/karenMallari.html"
               },
               "profile_pic": "https://i.pinimg.com/550x/ce/d8/4a/ced84a67302c60bd1abaaf9314064433.jpg",
-              "subordinates":[]
+              "subordinates": []
             },
             {
-              "employee_name":"Mufri Dharmawan",
-              "business_title":"AVP - Head of Investment & Product Development",
-              "manager":"Derek Tsui",
-              "region":"Asia Pacific",
-              "department":"asset/investment Management",
+              "employee_name": "Mufri Dharmawan",
+              "business_title": "AVP - Head of Investment & Product Development",
+              "manager": "Derek Tsui",
+              "region": "Asia Pacific",
+              "department": "asset/investment Management",
               "contact": {
                 "email": "mufri_dharmawan@company1.com",
                 "tel": "972-58-7634538",
                 "profile": "www.company1.com/profile/mufriDharmawan.html"
               },
               "profile_pic": "https://angelgrayphotography.com/wp-content/uploads/2018/04/AGP_0844-copy.jpg",
-              "subordinates":[]
+              "subordinates": []
             },
             {
-              "employee_name":"Hui Ying Huang",
-              "business_title":"Senior Assistant Vice President",
-              "manager":"Derek Tsui",
-              "region":"Asia Pacific",
-              "department":"Asset/Investment Management",
+              "employee_name": "Hui Ying Huang",
+              "business_title": "Senior Assistant Vice President",
+              "manager": "Derek Tsui",
+              "region": "Asia Pacific",
+              "department": "Asset/Investment Management",
               "contact": {
                 "email": "hui_ying_huang@company1.com",
                 "tel": "972-58-7634539",
                 "profile": "www.company1.com/profile/huiYingHuang.html"
               },
               "profile_pic": "http://www.carmelstudiosphotography.com/wp-content/gallery/professional-headshots/Professional-Headshot-6.jpg",
-              "subordinates":[]
+              "subordinates": []
             },
             {
-              "employee_name":"Kim Hoang Vu Huynh",
-              "business_title":"Supervisor Distribution",
-              "manager":"Derek Tsui",
-              "region":"Asia Pacific",
-              "department":"Asset/investment management",
+              "employee_name": "Kim Hoang Vu Huynh",
+              "business_title": "Supervisor Distribution",
+              "manager": "Derek Tsui",
+              "region": "Asia Pacific",
+              "department": "Asset/investment management",
               "contact": {
                 "email": "kim_hoang_vu_huynh@company1.com",
                 "tel": "972-58-7634540",
                 "profile": "www.company1.com/profile/kimHoangVuHuynh.html"
               },
               "profile_pic": "https://ritazietsma.com/wp-content/uploads/2020/01/Professional-Headshot.jpg",
-              "subordinates":[]
+              "subordinates": []
             },
             {
-              "employee_name":"Thi Bich Ngoc Nguyen",
-              "business_title":"Assistant Manager CFMC",
-              "manager":"Derek Tsui",
-              "region":"Asia Pacific",
-              "department":"Asset/Investment Management",
+              "employee_name": "Thi Bich Ngoc Nguyen",
+              "business_title": "Assistant Manager CFMC",
+              "manager": "Derek Tsui",
+              "region": "Asia Pacific",
+              "department": "Asset/Investment Management",
               "contact": {
                 "email": "thi_bich_ngoc_nguyen@company1.com",
                 "tel": "972-58-7634541",
                 "profile": "www.company1.com/profile/thiBichNgocNguyen.html"
               },
               "profile_pic": "https://i.pinimg.com/474x/77/fc/a9/77fca9754a11fbd15aee50d44bd317e9--doctor-of-dental-surgery-dental-services.jpg",
-              "subordinates":[]
+              "subordinates": []
             }
           ]
         },
         {
-          "employee_name":"Michael Buthe",
-          "business_title":"Managing Director Chubb Life Investments",
-          "manager":"Richard Bradley",
-          "region":"North America",
-          "department":"Asset/Investment Management",
+          "employee_name": "Michael Buthe",
+          "business_title": "Managing Director Chubb Life Investments",
+          "manager": "Richard Bradley",
+          "region": "North America",
+          "department": "Asset/Investment Management",
           "contact": {
             "email": "michael_buthe@company1.com",
             "tel": "972-58-7634528",
             "profile": "www.company1.com/profile/michaelButhe.html"
           },
           "profile_pic": "https://ritazietsma.com/wp-content/uploads/2020/01/Professional-Headshot.jpg",
-          "subordinates":[]
+          "subordinates": []
         }
       ]
     },
     {
-      "employee_name":"kevin laufer",
-      "business_title":"VP Aviation Director",
-      "manager":"Christian Wiseman",
-      "region":"North America",
-      "department":"Aviation",
+      "employee_name": "kevin laufer",
+      "business_title": "VP Aviation Director",
+      "manager": "Christian Wiseman",
+      "region": "North America",
+      "department": "Aviation",
       "contact": {
         "email": "kevin_laufer@company1.com",
         "tel": "972-3-6487623",
         "profile": "www.company1.com/profile/kevinLaufer.html"
       },
       "profile_pic": "https://qph.fs.quoracdn.net/main-qimg-7fb93146f5e4e470f5a590d2fc38be3b",
-      "subordinates":
-      [
+      "subordinates": [
         {
-          "employee_name":"Lemuel Ervin",
-          "business_title":"Maintenance Inspector",
-          "manager":"Kevin Laufer",
-          "region":"North America",
-          "department":"Aviation",
+          "employee_name": "Lemuel Ervin",
+          "business_title": "Maintenance Inspector",
+          "manager": "Kevin Laufer",
+          "region": "North America",
+          "department": "Aviation",
           "contact": {
             "email": "lemuel_ervin@company1.com",
             "tel": "972-58-7634543",
             "profile": "www.company1.com/profile/lemuelErvin.html"
           },
           "profile_pic": "https://lh3.googleusercontent.com/proxy/y_qvPKEjCvReKmBIZiYILe1weqDktEYVC4mpb7dnHrxgYhrCO_lp7AZpuDOUojdpy94Rv_g-BztDT1-j316uqUySqb6kEzf1Zt4O1Teg03NSSn2SVMbeMQHNp4y_",
-          "subordinates":
-          [
+          "subordinates": [
             {
-              "employee_name":"Bradford Exley",
-              "business_title":"Aircraft Maintenance Technician",
-              "manager":"Lemuel Ervin",
-              "region":"North America",
-              "department":"Aviation",
+              "employee_name": "Bradford Exley",
+              "business_title": "Aircraft Maintenance Technician",
+              "manager": "Lemuel Ervin",
+              "region": "North America",
+              "department": "Aviation",
               "contact": {
                 "email": "bradford_exley@company1.com",
                 "tel": "972-58-7634546",
                 "profile": "www.company1.com/profile/bradfordExley.html"
               },
               "profile_pic": "https://seattleheadshotpro.com/wp-content/uploads/2018/08/Thom-Seattle-Headshot-Pro-Professional-Headshots-corporate-headshots-seattle-500px.jpg",
-              "subordinates":
-              [
+              "subordinates": [
                 {
-                  "employee_name":"William Pearson",
-                  "business_title":"AVP Chief Pilot",
-                  "manager":"Bradford Exley",
-                  "region":"North America",
-                  "department":"aviation",
+                  "employee_name": "William Pearson",
+                  "business_title": "AVP Chief Pilot",
+                  "manager": "Bradford Exley",
+                  "region": "North America",
+                  "department": "aviation",
                   "contact": {
                     "email": "william_pearson@company1.com",
                     "tel": "972-58-7634548",
                     "profile": "www.company1.com/profile/williamPearson.html"
                   },
                   "profile_pic": "https://www.smallbusinessbonfire.com/wp-content/uploads/2016/02/professional-headshot.jpg",
-                  "subordinates":[]
+                  "subordinates": []
                 },
                 {
-                  "employee_name":"Jacqueline Bachelet",
-                  "business_title":"Broker Development Manager",
-                  "manager":"Bradford Exley",
-                  "region":"Europe",
-                  "department":"Aviation",
+                  "employee_name": "Jacqueline Bachelet",
+                  "business_title": "Broker Development Manager",
+                  "manager": "Bradford Exley",
+                  "region": "Europe",
+                  "department": "Aviation",
                   "contact": {
                     "email": "jacqueline_bachelet@company1.com",
                     "tel": "972-58-7634549",
                     "profile": "www.company1.com/profile/jacquelineBachelet.html"
                   },
                   "profile_pic": "https://i.pinimg.com/550x/ce/d8/4a/ced84a67302c60bd1abaaf9314064433.jpg",
-                  "subordinates":[]
+                  "subordinates": []
                 }
               ]
             },
             {
-              "employee_name":"Anthony Lotruglio",
-              "business_title":"Aircraft Maintenance Technician",
-              "manager":"Lemuel Ervin",
-              "region":"North America",
-              "department":"Aviation",
+              "employee_name": "Anthony Lotruglio",
+              "business_title": "Aircraft Maintenance Technician",
+              "manager": "Lemuel Ervin",
+              "region": "North America",
+              "department": "Aviation",
               "contact": {
                 "email": "anthony_lotruglio@company1.com",
                 "tel": "972-58-7634547",
                 "profile": "www.company1.com/profile/anthonyLotruglio.html"
               },
               "profile_pic": "https://solarisstudios.com/wp-content/uploads/2016/10/Houston-Business-Headshot.jpg",
-              "subordinates":
-              [
+              "subordinates": [
                 {
-                  "employee_name":"Malcolm Powers",
-                  "business_title":"Senior Captain Jet Operations",
-                  "manager":"Anthony Lotruglio",
-                  "region":"North America",
-                  "department":"AVIATION",
+                  "employee_name": "Malcolm Powers",
+                  "business_title": "Senior Captain Jet Operations",
+                  "manager": "Anthony Lotruglio",
+                  "region": "North America",
+                  "department": "AVIATION",
                   "contact": {
                     "email": "malcolm_powers@company1.com",
                     "tel": "972-58-7634550",
                     "profile": "www.company1.com/profile/malcolmPowers.html"
                   },
                   "profile_pic": "https://angelgrayphotography.com/wp-content/uploads/2018/04/AGP_0844-copy.jpg",
-                  "subordinates":
-                  [
+                  "subordinates": [
                     {
-                      "employee_name":"Kelly Everetts",
-                      "business_title":"Lead Flight Attendant",
-                      "manager":"Malcolm Powers",
-                      "region":"North America",
-                      "department":"Aviation",
+                      "employee_name": "Kelly Everetts",
+                      "business_title": "Lead Flight Attendant",
+                      "manager": "Malcolm Powers",
+                      "region": "North America",
+                      "department": "Aviation",
                       "contact": {
                         "email": "kelly_everetts@company1.com",
                         "tel": "972-58-7634553",
                         "profile": "www.company1.com/profile/kellyEveretts.html"
                       },
                       "profile_pic": "https://i.pinimg.com/474x/77/fc/a9/77fca9754a11fbd15aee50d44bd317e9--doctor-of-dental-surgery-dental-services.jpg",
-                      "subordinates":[]
+                      "subordinates": []
                     },
                     {
-                      "employee_name":"Mattias Fogelberg",
-                      "business_title":"Senior Captain Jet Operations",
-                      "manager":"Malcolm Powers",
-                      "region":"North America",
-                      "department":"Aviation",
+                      "employee_name": "Mattias Fogelberg",
+                      "business_title": "Senior Captain Jet Operations",
+                      "manager": "Malcolm Powers",
+                      "region": "North America",
+                      "department": "Aviation",
                       "contact": {
                         "email": "mattias_fogelberg@company1.com",
                         "tel": "972-58-7634554",
                         "profile": "www.company1.com/profile/mattiasFogelberg.html"
                       },
                       "profile_pic": "https://qph.fs.quoracdn.net/main-qimg-7fb93146f5e4e470f5a590d2fc38be3b",
-                      "subordinates":[]
+                      "subordinates": []
                     },
                     {
-                      "employee_name":"Eugene Spitz",
-                      "business_title":"Captain Jet Operations",
-                      "manager":"Malcolm Powers",
-                      "region":"North America",
-                      "department":"Aviation",
+                      "employee_name": "Eugene Spitz",
+                      "business_title": "Captain Jet Operations",
+                      "manager": "Malcolm Powers",
+                      "region": "North America",
+                      "department": "Aviation",
                       "contact": {
                         "email": "eugene_spitz@company1.com",
                         "tel": "972-58-7634555",
                         "profile": "www.company1.com/profile/eugeneSpitz.html"
                       },
                       "profile_pic": "https://lh3.googleusercontent.com/proxy/y_qvPKEjCvReKmBIZiYILe1weqDktEYVC4mpb7dnHrxgYhrCO_lp7AZpuDOUojdpy94Rv_g-BztDT1-j316uqUySqb6kEzf1Zt4O1Teg03NSSn2SVMbeMQHNp4y_",
-                      "subordinates":[]
+                      "subordinates": []
                     },
                     {
-                      "employee_name":"Andrew Waber",
-                      "business_title":"Flight Scheduler/Coordinator",
-                      "manager":"Malcolm Powers",
-                      "region":"North America",
-                      "department":"Aviation",
+                      "employee_name": "Andrew Waber",
+                      "business_title": "Flight Scheduler/Coordinator",
+                      "manager": "Malcolm Powers",
+                      "region": "North America",
+                      "department": "Aviation",
                       "contact": {
                         "email": "andrew_waber@company1.com",
                         "tel": "972-58-7634556",
                         "profile": "www.company1.com/profile/andrewWaber.html"
                       },
                       "profile_pic": "https://i.pinimg.cm/550x/ce/d8/4a/ced84a67302c60bd1abaaf9314064433.jpg",
-                      "subordinates":[]
+                      "subordinates": []
                     }
                   ]
                 },
                 {
-                  "employee_name":"Rachelle Gibbs",
-                  "business_title":"Flight Scheduler/Coordinator",
-                  "manager":"Anthony Lotruglio",
-                  "region":"North America",
-                  "department":"Aviation",
+                  "employee_name": "Rachelle Gibbs",
+                  "business_title": "Flight Scheduler/Coordinator",
+                  "manager": "Anthony Lotruglio",
+                  "region": "North America",
+                  "department": "Aviation",
                   "contact": {
                     "email": "rachelle_gibbs@company1.com",
                     "tel": "972-58-7634551",
                     "profile": "www.company1.com/profile/rachelleGibbs.html"
                   },
                   "profile_pic": "http://www.carmelstudiosphotography.com/wp-content/gallery/professional-headshots/Professional-Headshot-6.jpg",
-                  "subordinates":[]
+                  "subordinates": []
                 },
                 {
-                  "employee_name":"Alonso Marchinski",
-                  "business_title":"Aircraft Maintenance Technician",
-                  "manager":"Anthony Lotruglio",
-                  "region":"North America",
-                  "department":"Aviation",
+                  "employee_name": "Alonso Marchinski",
+                  "business_title": "Aircraft Maintenance Technician",
+                  "manager": "Anthony Lotruglio",
+                  "region": "North America",
+                  "department": "Aviation",
                   "contact": {
                     "email": "alons_marchinski@company1.com",
                     "tel": "972-58-7634552",
                     "profile": "www.company1.com/profile/alonsoMarchinski.html"
                   },
                   "profile_pic": "https://ritazietsma.com/wp-content/uploads/2020/01/Professional-Headshot.jpg",
-                  "subordinates":[]
+                  "subordinates": []
                 }
               ]
             }
           ]
         },
         {
-          "employee_name":"Sharon Martin",
-          "business_title":"Flight Scheduler/Coordinator",
-          "manager":"Kevin Laufer",
-          "region":"North America",
-          "department":"Aviation",
+          "employee_name": "Sharon Martin",
+          "business_title": "Flight Scheduler/Coordinator",
+          "manager": "Kevin Laufer",
+          "region": "North America",
+          "department": "Aviation",
           "contact": {
             "email": "sharon_martin@company1.com",
             "tel": "972-58-7634544",
             "profile": "www.company1.com/profile/sharonMartin.html"
           },
           "profile_pic": "https://i.pinimg.cm/550x/ce/d8/4a/ced84a67302c60bd1abaaf9314064433.jpg",
-          "subordinates":
-          [
+          "subordinates": [
             {
-              "employee_name":"Ryan Oakes",
-              "business_title":"First Officer Chubb Flight Operations",
-              "manager":"Sharon Martin",
-              "region":"North America",
-              "department":"Aviation",
+              "employee_name": "Ryan Oakes",
+              "business_title": "First Officer Chubb Flight Operations",
+              "manager": "Sharon Martin",
+              "region": "North America",
+              "department": "Aviation",
               "contact": {
                 "email": "ryan_oakes@company1.com",
                 "tel": "972-58-7634557",
                 "profile": "www.company1.com/profile/ryanOakes.html"
               },
               "profile_pic": "",
-              "subordinates":[]
+              "subordinates": []
             },
             {
-              "employee_name":"Benjamin Toner",
-              "business_title":"Senior First Officer",
-              "manager":"Sharon Martin",
-              "region":"North America",
-              "department":"aviation",
+              "employee_name": "Benjamin Toner",
+              "business_title": "Senior First Officer",
+              "manager": "Sharon Martin",
+              "region": "North America",
+              "department": "aviation",
               "contact": {
                 "email": "benjamin_toner@company1.com",
                 "tel": "972-58-7634558",
                 "profile": "www.company1.com/profile/benjaminToner.html"
               },
               "profile_pic": "https://seattleheadshotpro.com/wp-content/uploads/2018/08/Thom-Seattle-Headshot-Pro-Professional-Headshots-corporate-headshots-seattle-500px.jpg",
-              "subordinates":[]
+              "subordinates": []
             }
           ]
         },
         {
-          "employee_name":"Timothy Brown",
-          "business_title":"Aircraft Maintenance Technician",
-          "manager":"kevin Laufer",
-          "region":"North America",
-          "department":"Aviation",
+          "employee_name": "Timothy Brown",
+          "business_title": "Aircraft Maintenance Technician",
+          "manager": "kevin Laufer",
+          "region": "North America",
+          "department": "Aviation",
           "contact": {
             "email": "timothy_brown@company1.com",
             "tel": "972-58-7634545",
             "profile": "www.company1.com/profile/timothyBrown.html"
           },
           "profile_pic": "",
-          "subordinates":
-          [
+          "subordinates": [
             {
-              "employee_name":"Rhonda Miller",
-              "business_title":"Flight Attendant Chubb Flight Operations",
-              "manager":"Timothy Brown",
-              "region":"North America",
-              "department":"Aviation",
+              "employee_name": "Rhonda Miller",
+              "business_title": "Flight Attendant Chubb Flight Operations",
+              "manager": "Timothy Brown",
+              "region": "North America",
+              "department": "Aviation",
               "contact": {
                 "email": "rhonda_miller@company1.com",
                 "tel": "972-58-7634559",
                 "profile": "www.company1.com/profile/rhondaMiller.html"
               },
               "profile_pic": "https://solarisstudios.com/wp-content/uploads/2016/10/Houston-Business-Headshot.jpg",
-              "subordinates":[]
+              "subordinates": []
             },
             {
-              "employee_name":"Bryan Crossland",
-              "business_title":"Aircraft Maintenance Technician",
-              "manager":"Sharon Martin",
-              "region":"North America",
-              "department":"Aviation",
+              "employee_name": "Bryan Crossland",
+              "business_title": "Aircraft Maintenance Technician",
+              "manager": "Sharon Martin",
+              "region": "North America",
+              "department": "Aviation",
               "contact": {
                 "email": "bryan_crossland@company1.com",
                 "tel": "",
                 "profile": ""
               },
               "profile_pic": "https://www.smallbusinessbonfire.com/wp-content/uploads/2016/02/professional-headshot.jpg",
-              "subordinates":[]
+              "subordinates": []
             },
             {
-              "employee_name":"Margaret Capro",
-              "business_title":"Senior Captain Jet Operations",
-              "manager":"Timothy Brown",
-              "region":"North America",
-              "department":"Aviation",
+              "employee_name": "Margaret Capro",
+              "business_title": "Senior Captain Jet Operations",
+              "manager": "Timothy Brown",
+              "region": "North America",
+              "department": "Aviation",
               "contact": {
                 "email": "margaret_capro@company1.com",
                 "tel": "972-58-7634561",
                 "profile": "www.company1.com/profile/margaretCapro.html"
               },
               "profile_pic": "https://i.pinimg.com/550x/ce/d8/4a/ced84a67302c60bd1abaaf9314064433.jpg",
-              "subordinates":[]
+              "subordinates": []
             },
             {
-              "employee_name":"Richard Reinhart",
-              "business_title":"Captain Jet Operations",
-              "manager":"Timothy Brown",
-              "region":"North America",
-              "department":"Aviation",
+              "employee_name": "Richard Reinhart",
+              "business_title": "Captain Jet Operations",
+              "manager": "Timothy Brown",
+              "region": "North America",
+              "department": "Aviation",
               "contact": {
                 "email": "richard_reinhart@company1.com",
                 "tel": "972-58-7634562",
                 "profile": "www.company1.com/profilerRichardReinhart.html"
               },
               "profile_pic": "https://angelgrayphotography.com/wp-content/uploads/2018/04/AGP_0844-copy.jpg",
-              "subordinates":[]
+              "subordinates": []
             }
           ]
         }
       ]
     },
     {
-      "employee_name":"Michael Wynne-Jones",
-      "business_title":"Vice President",
-      "manager":"Christian Wiseman",
-      "region":"North America",
-      "department":"Capital Modeling",
+      "employee_name": "Michael Wynne-Jones",
+      "business_title": "Vice President",
+      "manager": "Christian Wiseman",
+      "region": "North America",
+      "department": "Capital Modeling",
       "contact": {
         "email": "michael_wynne-jones@company1.com",
         "tel": "972-58-7634563",
         "profile": "www.company1.com/profile/michaelWynneJones.html"
       },
       "profile_pic": "http://www.carmelstudiosphotography.com/wp-content/gallery/professional-headshots/Professional-Headshot-6.jpg",
-      "subordinates":
-      [
+      "subordinates": [
         {
-          "employee_name":"Kean Mun Loh",
-          "business_title":"Validation Actuary/Lead",
-          "manager":"Michael Wynne-Jones",
-          "region":"North America",
-          "department":"Capital Modeling",
+          "employee_name": "Kean Mun Loh",
+          "business_title": "Validation Actuary/Lead",
+          "manager": "Michael Wynne-Jones",
+          "region": "North America",
+          "department": "Capital Modeling",
           "contact": {
             "email": "kean_mun_loh@company1.com",
             "tel": "972-58-7634564",
             "profile": "www.company1.com/profile/keanMunLoh.html"
           },
           "profile_pic": "https://ritazietsma.com/wp-content/uploads/2020/01/Professional-Headshot.jpg",
-          "subordinates":
-          [
+          "subordinates": [
             {
-              "employee_name":"Hsiu-Mei Chang",
-              "business_title":"AVP Validation Lead",
-              "manager":"Kean Mun Loh",
-              "region":"North America",
-              "department":"Capital Modeling",
+              "employee_name": "Hsiu-Mei Chang",
+              "business_title": "AVP Validation Lead",
+              "manager": "Kean Mun Loh",
+              "region": "North America",
+              "department": "Capital Modeling",
               "contact": {
                 "email": "hsiu-mei_chang@company1.com",
                 "tel": "972-58-7634566",
                 "profile": "www.company1.com/profile/hsiuMeiChang.html"
               },
               "profile_pic": "https://qph.fs.quoracdn.net/main-qimg-7fb93146f5e4e470f5a590d2fc38be3b",
-              "subordinates":
-              [
+              "subordinates": [
                 {
-                  "employee_name":"Niveditha Sudhaman",
-                  "business_title":"Analyst - Risk & Capital",
-                  "manager":"Hsiu-Mei Chang",
-                  "region":"Asia Pacific",
-                  "department":"Capital Modeling",
+                  "employee_name": "Niveditha Sudhaman",
+                  "business_title": "Analyst - Risk & Capital",
+                  "manager": "Hsiu-Mei Chang",
+                  "region": "Asia Pacific",
+                  "department": "Capital Modeling",
                   "contact": {
                     "email": "niveditha_sudhaman@company1.com",
                     "tel": "972-58-7634576",
                     "profile": "www.company1.com/profile/nivedithaSudhaman.html"
                   },
                   "profile_pic": "https://ritazietsma.com/wp-content/uploads/2020/01/Professional-Headshot.jpg",
-                  "subordinates":
-                  [
+                  "subordinates": [
                     {
-                      "employee_name":"Nitin Poddar",
-                      "business_title":"Senior Manager - Risk & Capital",
-                      "manager":"Niveditha Sudhaman",
-                      "region":"Asia Pacific",
-                      "department":"Capital Modeling",
+                      "employee_name": "Nitin Poddar",
+                      "business_title": "Senior Manager - Risk & Capital",
+                      "manager": "Niveditha Sudhaman",
+                      "region": "Asia Pacific",
+                      "department": "Capital Modeling",
                       "contact": {
                         "email": "nitin_poddar@company1.com",
                         "tel": "972-58-7634581",
                         "profile": "www.company1.com/profile/nitinPoddar.html"
                       },
                       "profile_pic": "",
-                      "subordinates":[]
+                      "subordinates": []
                     },
                     {
-                      "employee_name":"Manas Parmar",
-                      "business_title":"Analyst - Risk & Capital",
-                      "manager":"Niveditha Sudhaman",
-                      "region":"Asia Pacific",
-                      "department":"Capital Modeling",
+                      "employee_name": "Manas Parmar",
+                      "business_title": "Analyst - Risk & Capital",
+                      "manager": "Niveditha Sudhaman",
+                      "region": "Asia Pacific",
+                      "department": "Capital Modeling",
                       "contact": {
                         "email": "manas_parmar@company1.com",
                         "tel": "972-58-7634582",
                         "profile": "www.company1.com/profile/manasParmar.html"
                       },
                       "profile_pic": "",
-                      "subordinates":[]
+                      "subordinates": []
                     },
                     {
-                      "employee_name":"Treesa Antony",
-                      "business_title":"Senior Analyst - Risk & Capital",
-                      "manager":"Niveditha Sudhaman",
-                      "region":"Asia Pacific",
-                      "department":"Capital Modeling",
+                      "employee_name": "Treesa Antony",
+                      "business_title": "Senior Analyst - Risk & Capital",
+                      "manager": "Niveditha Sudhaman",
+                      "region": "Asia Pacific",
+                      "department": "Capital Modeling",
                       "contact": {
                         "email": "treesa_antony@company1.com",
                         "tel": "972-58-7634583",
                         "profile": "www.company1.com/profile/treesaAntony.html"
                       },
                       "profile_pic": null,
-                      "subordinates":[]
+                      "subordinates": []
                     },
                     {
-                      "employee_name":"Christopher Petrolis",
-                      "business_title":"Vice President & Actuary",
-                      "manager":"Niveditha Sudhaman",
-                      "region":"North America",
-                      "department":"Capital Modeling",
+                      "employee_name": "Christopher Petrolis",
+                      "business_title": "Vice President & Actuary",
+                      "manager": "Niveditha Sudhaman",
+                      "region": "North America",
+                      "department": "Capital Modeling",
                       "contact": {
                         "email": "christopher_petrolis@company1.com",
                         "tel": "972-58-7634584",
                         "profile": "www.company1.com/profile/christopherPetrolis.html"
                       },
                       "profile_pic": "https://angelgrayphotography.com/wp-content/uploads/2018/04/AGP_0844-copy.jpg",
-                      "subordinates":[]
+                      "subordinates": []
                     }
                   ]
                 },
                 {
-                  "employee_name":"Avik Bera",
-                  "business_title":"Analyst - Risk & Capital",
-                  "manager":"Hsiu-Mei Chang",
-                  "region":"Asia Pacific",
-                  "department":"Capital Modeling",
+                  "employee_name": "Avik Bera",
+                  "business_title": "Analyst - Risk & Capital",
+                  "manager": "Hsiu-Mei Chang",
+                  "region": "Asia Pacific",
+                  "department": "Capital Modeling",
                   "contact": {
                     "email": "avik_bera@company1.com",
                     "tel": "972-58-7634577",
                     "profile": "www.company1.com/profile/avikBera.html"
                   },
                   "profile_pic": "https://i.pinimg.com/474x/77/fc/a9/77fca9754a11fbd15aee50d44bd317e9--doctor-of-dental-surgery-dental-services.jpg",
-                  "subordinates":[]
+                  "subordinates": []
                 },
                 {
-                  "employee_name":"Ahalya Babu",
-                  "business_title":"Analyst - Risk & Capital",
-                  "manager":"Hsiu-Mei Chang",
-                  "region":"Asia Pacific",
-                  "department":"Capital Modeling",
+                  "employee_name": "Ahalya Babu",
+                  "business_title": "Analyst - Risk & Capital",
+                  "manager": "Hsiu-Mei Chang",
+                  "region": "Asia Pacific",
+                  "department": "Capital Modeling",
                   "contact": {
                     "email": "ahalya_babu@company1.com",
                     "tel": "972-58-7634578",
@@ -1079,185 +1055,184 @@
                   "profile_pic": "https://qph.fs.quoracdn.net/main-qimg-7fb93146f5e4e470f5a590d2fc38be3b"
                 },
                 {
-                  "employee_name":"Satya Prakash",
-                  "business_title":"Senior Analyst - Risk & Capital",
-                  "manager":"Hsiu-Mei Chang",
-                  "region":"Asia Pacific",
-                  "department":"Capital Modeling",
+                  "employee_name": "Satya Prakash",
+                  "business_title": "Senior Analyst - Risk & Capital",
+                  "manager": "Hsiu-Mei Chang",
+                  "region": "Asia Pacific",
+                  "department": "Capital Modeling",
                   "contact": {
                     "email": "satya_prakash@company1.com",
                     "tel": "972-58-7634579",
                     "profile": "www.company1.com/profile/satyaPrakash.html"
                   },
                   "profile_pic": "https://lh3.googleusercontent.com/proxy/y_qvPKEjCvReKmBIZiYILe1weqDktEYVC4mpb7dnHrxgYhrCO_lp7AZpuDOUojdpy94Rv_g-BztDT1-j316uqUySqb6kEzf1Zt4O1Teg03NSSn2SVMbeMQHNp4y_",
-                  "subordinates":[]
+                  "subordinates": []
                 },
                 {
-                  "employee_name":"Rohit Singh",
-                  "business_title":"Assistant Team Manager - Risk & Capital",
-                  "manager":"Hsiu-Mei Chang",
-                  "region":"Asia Pacific",
-                  "department":"Capital Modeling",
+                  "employee_name": "Rohit Singh",
+                  "business_title": "Assistant Team Manager - Risk & Capital",
+                  "manager": "Hsiu-Mei Chang",
+                  "region": "Asia Pacific",
+                  "department": "Capital Modeling",
                   "contact": {
                     "email": "rohit_singh@company1.com",
                     "tel": "972-58-7634580",
                     "profile": "www.company1.com/profile/rohitSingh.html"
                   },
                   "profile_pic": "https://i.pinimg.cm/550x/ce/d8/4a/ced84a67302c60bd1abaaf9314064433.jpg",
-                  "subordinates":
-                  [
+                  "subordinates": [
                     {
-                      "employee_name":"Matthew Galinsky",
-                      "business_title":"Senior Assistant Actuary",
-                      "manager":"Rohit Singh",
-                      "region":"North America",
-                      "department":"Capital Modeling",
+                      "employee_name": "Matthew Galinsky",
+                      "business_title": "Senior Assistant Actuary",
+                      "manager": "Rohit Singh",
+                      "region": "North America",
+                      "department": "Capital Modeling",
                       "contact": {
                         "email": "matthew_galinsky@company1.com",
                         "tel": "972-58-7634585",
                         "profile": "www.company1.com/profile/matthewGalinsky.html"
                       },
                       "profile_pic": "http://www.carmelstudiosphotography.com/wp-content/gallery/professional-headshots/Professional-Headshot-6.jpg",
-                      "subordinates":[]
+                      "subordinates": []
                     }
                   ]
                 }
               ]
             },
             {
-              "employee_name":"Ankit Chhajer",
-              "business_title":"Actuarial Specialist - Risk & Capital",
-              "manager":"Kean Mun Loh",
-              "region":"Asia Pacific",
-              "department":"Capital Modeling",
+              "employee_name": "Ankit Chhajer",
+              "business_title": "Actuarial Specialist - Risk & Capital",
+              "manager": "Kean Mun Loh",
+              "region": "Asia Pacific",
+              "department": "Capital Modeling",
               "contact": {
                 "email": "ankit_chhajer@company1.com",
                 "tel": "972-58-7634567",
                 "profile": "www.company1.com/profile/ankitChhajer.html"
               },
               "profile_pic": "https://lh3.googleusercontent.com/proxy/y_qvPKEjCvReKmBIZiYILe1weqDktEYVC4mpb7dnHrxgYhrCO_lp7AZpuDOUojdpy94Rv_g-BztDT1-j316uqUySqb6kEzf1Zt4O1Teg03NSSn2SVMbeMQHNp4y_",
-              "subordinates":[]
+              "subordinates": []
             },
             {
-              "employee_name":"Karthikeyan Kanagasabapathi",
-              "business_title":"Assistant Team Manager - Risk & Capital",
-              "manager":"Kean Mun Loh",
-              "region":"Asia Pacific",
-              "department":"Capital Modeling",
+              "employee_name": "Karthikeyan Kanagasabapathi",
+              "business_title": "Assistant Team Manager - Risk & Capital",
+              "manager": "Kean Mun Loh",
+              "region": "Asia Pacific",
+              "department": "Capital Modeling",
               "contact": {
                 "email": "karthikeyan_kanagasabapathi@company1.com",
                 "tel": "972-58-7634568",
                 "profile": "www.company1.com/profile/karthikeyanKanagasabapathi.html"
               },
               "profile_pic": "https://i.pinimg.cm/550x/ce/d8/4a/ced84a67302c60bd1abaaf9314064433.jpg",
-              "subordinates":[]
+              "subordinates": []
             },
             {
-              "employee_name":"Ragul Subramanian",
-              "business_title":"Senior Associate - Risk & Capital",
-              "manager":"Kean Mun Loh",
-              "region":"Asia Pacific",
-              "department":"Capital Modeling",
+              "employee_name": "Ragul Subramanian",
+              "business_title": "Senior Associate - Risk & Capital",
+              "manager": "Kean Mun Loh",
+              "region": "Asia Pacific",
+              "department": "Capital Modeling",
               "contact": {
                 "email": "ragul_subramanian@company1.com",
                 "tel": "972-58-7634569",
                 "profile": "www.company1.com/profile/ragulSubramanian.html"
               },
               "profile_pic": null,
-              "subordinates":[]
+              "subordinates": []
             },
             {
-              "employee_name":"Sarwang Jain",
-              "business_title":"Associate SME - Risk & Capital",
-              "manager":"Kean Mun Loh",
-              "region":"Asia Pacific",
-              "department":"Capital Modeling",
+              "employee_name": "Sarwang Jain",
+              "business_title": "Associate SME - Risk & Capital",
+              "manager": "Kean Mun Loh",
+              "region": "Asia Pacific",
+              "department": "Capital Modeling",
               "contact": {
                 "email": "sarwang_jain@company1.com",
                 "tel": "972-58-7634570",
                 "profile": "www.company1.com/profile/sarwangJain.html"
               },
               "profile_pic": "https://seattleheadshotpro.com/wp-content/uploads/2018/08/Thom-Seattle-Headshot-Pro-Professional-Headshots-corporate-headshots-seattle-500px.jpg",
-              "subordinates":[]
+              "subordinates": []
             },
             {
-              "employee_name":"Bhanu Gottipalli",
-              "business_title":"Team Manager - Risk & Capital",
-              "manager":"Kean Mun Loh",
-              "region":"Asia Pacific",
-              "department":"Capital Modeling",
+              "employee_name": "Bhanu Gottipalli",
+              "business_title": "Team Manager - Risk & Capital",
+              "manager": "Kean Mun Loh",
+              "region": "Asia Pacific",
+              "department": "Capital Modeling",
               "contact": {
                 "email": "",
                 "tel": "972-58-7634571",
                 "profile": "www.company1.com/profile/bhanuGottipalli.html"
               },
               "profile_pic": "https://solarisstudios.com/wp-content/uploads/2016/10/Houston-Business-Headshot.jpg",
-              "subordinates":[]
+              "subordinates": []
             },
             {
-              "employee_name":"Hemaa Yuvarajan",
-              "business_title":"Associate - Risk & Capital",
-              "manager":"Kean Mun Loh",
-              "region":"Asia Pacific",
-              "department":"Capital Modeling",
+              "employee_name": "Hemaa Yuvarajan",
+              "business_title": "Associate - Risk & Capital",
+              "manager": "Kean Mun Loh",
+              "region": "Asia Pacific",
+              "department": "Capital Modeling",
               "contact": {
                 "email": "hemaa_yuvarajan@company1.com",
                 "tel": "972-58-7634572",
                 "profile": "www.company1.com/profile/hemaaYuvarajan.html"
               },
               "profile_pic": "https://www.smallbusinessbonfire.com/wp-content/uploads/2016/02/professional-headshot.jpg",
-              "subordinates":[]
+              "subordinates": []
             },
             {
-              "employee_name":"Priya Jhunjhunwala",
-              "business_title":"Senior Analyst - Risk & Capital",
-              "manager":"Kean Mun Loh",
-              "region":"Asia Pacific",
-              "department":"Capital Modeling",
+              "employee_name": "Priya Jhunjhunwala",
+              "business_title": "Senior Analyst - Risk & Capital",
+              "manager": "Kean Mun Loh",
+              "region": "Asia Pacific",
+              "department": "Capital Modeling",
               "contact": {
                 "email": "priya_jhunjhunwala@company1.com",
                 "tel": "972-58-7634573",
                 "profile": "www.company1.com/profile/priyaJhunjhunwala.html"
               },
               "profile_pic": "https://i.pinimg.com/550x/ce/d8/4a/ced84a67302c60bd1abaaf9314064433.jpg",
-              "subordinates":[]
+              "subordinates": []
             },
             {
-              "employee_name":"Babeena Varghese",
-              "business_title":"Senior Associate - Risk & Capital",
-              "manager":"Kean Mun Loh",
-              "region":"Asia Pacific",
-              "department":"Capital Modeling",
+              "employee_name": "Babeena Varghese",
+              "business_title": "Senior Associate - Risk & Capital",
+              "manager": "Kean Mun Loh",
+              "region": "Asia Pacific",
+              "department": "Capital Modeling",
               "contact": {
                 "email": "babeena_varghese@company1.com",
                 "tel": "972-58-7634574",
                 "profile": "www.company1.com/profile/babeenaVarghese.html"
               },
               "profile_pic": "https://angelgrayphotography.com/wp-content/uploads/2018/04/AGP_0844-copy.jpg",
-              "subordinates":[]
+              "subordinates": []
             },
             {
-              "employee_name":"Shrija Chavali",
-              "business_title":"Analyst - Risk & Capital",
-              "manager":"Kean Mun Loh",
-              "region":"Asia Pacific",
-              "department":"Capital modeling",
+              "employee_name": "Shrija Chavali",
+              "business_title": "Analyst - Risk & Capital",
+              "manager": "Kean Mun Loh",
+              "region": "Asia Pacific",
+              "department": "Capital modeling",
               "contact": {
                 "email": "shrija_chavali@company1.com",
                 "tel": "972-58-7634575",
                 "profile": "www.company1.com/profile/shrijaChavali.html"
               },
               "profile_pic": "http://www.carmelstudiosphotography.com/wp-content/gallery/professional-headshots/Professional-Headshot-6.jpg",
-              "subordinates":[]
+              "subordinates": []
             }
           ]
         },
         {
-          "employee_name":"Nah Yeon Ahn",
-          "business_title":"Risk Management Sr.Associate",
-          "manager":"Chulhyun Kim",
-          "region":"Asia Pacific",
-          "department":"Capital Modeling",
+          "employee_name": "Nah Yeon Ahn",
+          "business_title": "Risk Management Sr.Associate",
+          "manager": "Chulhyun Kim",
+          "region": "Asia Pacific",
+          "department": "Capital Modeling",
           "contact": {
             "email": "nah_yeon_ahn@company1.com",
             "tel": "972-58-7634565",
