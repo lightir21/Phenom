@@ -1,14 +1,16 @@
 import React, { useState, useEffect } from "react";
-import data from "./employees.json";
 
-import "./App.css";
+import Home from "./components/home/Home";
+
+import "./app.scss";
 
 function App() {
-  const [employess, setEmployees] = useState(data);
-  console.log(employess);
+  const data = require("./employees.json");
+
+  const [employees, setEmployees] = useState(data);
   return (
     <div className="App">
-      <p>the div</p>
+      <Home employees={employees} />
     </div>
   );
 }
