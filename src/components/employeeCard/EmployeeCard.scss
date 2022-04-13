@@ -1,5 +1,12 @@
+@import "../../app.scss";
 .card {
   &__img {
+    width: 6rem;
+    height: 6rem;
+    padding: 5px;
+    border-radius: 50%;
+    border: solid 3px $color-1;
+    object-fit: cover;
   }
 
   &__mame {

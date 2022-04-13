@@ -2,19 +2,30 @@ import React from "react";
 import "./EmployeeCard.scss";
 import { BsBuilding } from "react-icons/bs";
 
-const EmployeeCard = () => {
+const EmployeeCard = ({
+  name,
+  role,
+  locationText,
+  profileImage,
+  subordinates,
+}) => {
   return (
     <div className="card">
       <img
-        src="https://solarisstudios.com/wp-content/uploads/2016/10/Houston-Business-Headshot.jpg"
+        src={profileImage}
         alt="profile picture"
         className="card__img"
+        onError={(e) => {
+          e.currentTarget.onerror = null;
+          e.currentTarget.src =
+            "https://seattleheadshotpro.com/wp-content/uploads/2018/08/Thom-Seattle-Headshot-Pro-Professional-Headshots-corporate-headshots-seattle-500px.jpg";
+        }}
       />
-      <h3 className="card__name">Amit Noa</h3>
-      <p className="card__role">Global Chief Executive Office (CEO)</p>
+      <h3 className="card__name">{name}</h3>
+      <p className="card__role">{role}</p>
       <div className="card__location">
         <BsBuilding className="card__location-icon" />
-        <p className="card__location-text">New York, NY</p>
+        <p className="card__location-text">{locationText}</p>
       </div>
     </div>
   );
