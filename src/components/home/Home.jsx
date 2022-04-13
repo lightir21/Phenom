@@ -26,6 +26,7 @@ const Home = ({ employees }) => {
             role={employee.business_title}
             profileImage={employee.profile_pic}
             subordinates={employee.subordinates}
+            department={employee.department}
           />
         }
       >
@@ -36,7 +37,7 @@ const Home = ({ employees }) => {
       </TreeNode>
     );
   };
-
+  console.log(employees);
   return (
     <div className="home">
       <Tree
@@ -53,7 +54,6 @@ const Home = ({ employees }) => {
         lineBorderRadius={"8px"}
       >
         {employees.subordinates.map((employee) => {
-          console.log("employee: ", employee);
           return EmployeeTreeGenerator(employee);
         })}
       </Tree>
