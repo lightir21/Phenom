@@ -1,25 +1,56 @@
 @import "../../app.scss";
 .card {
+  width: 24rem;
+  height: 22.4rem;
+  background-color: #fff;
+  cursor: pointer;
+  border-radius: 10px;
+  margin-right: auto;
+  margin-left: auto;
+
+  display: flex;
+  flex-direction: column;
+
+  line-height: 2.4;
+
   &__img {
     width: 6rem;
     height: 6rem;
     padding: 5px;
+    margin-top: 1rem;
     border-radius: 50%;
 
     object-fit: cover;
+    margin-right: auto;
+    margin-left: auto;
   }
 
-  &__mame {
+  &__name {
+    margin-right: auto;
+    margin-left: auto;
+    font-size: $font-md;
   }
 
   &__role {
+    margin-right: auto;
+    margin-left: auto;
+    font-size: $font-sm;
   }
 
   &__location {
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: 1rem;
+    font-size: $font-sm;
+
     &-icon {
+      display: inline;
+      margin-right: 0.3rem;
     }
 
     &-text {
+      display: inline;
     }
   }
 }

@@ -39,7 +39,7 @@ const Home = ({ employees }) => {
   };
   console.log(employees);
   return (
-    <div className="home">
+    <div className="home" style={{ display: "flex", flexDirection: "column" }}>
       <Tree
         label={
           <EmployeeCard
@@ -54,7 +54,22 @@ const Home = ({ employees }) => {
         lineBorderRadius={"8px"}
       >
         {employees.subordinates.map((employee) => {
-          return EmployeeTreeGenerator(employee);
+          return (
+            <>
+              <TreeNode
+                label={
+                  <EmployeeCard
+                    name={employee.employee_name}
+                    locationText={employee.region}
+                    role={employee.business_title}
+                    profileImage={employee.profile_pic}
+                    subordinates={employee.subordinates}
+                    department={employee.department}
+                  />
+                }
+              ></TreeNode>
+            </>
+          );
         })}
       </Tree>
     </div>
