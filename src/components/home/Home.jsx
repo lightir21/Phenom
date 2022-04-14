@@ -39,39 +39,33 @@ const Home = ({ employees }) => {
   };
   console.log(employees);
   return (
-    <div className="home" style={{ display: "flex", flexDirection: "column" }}>
-      <Tree
-        label={
+    <div className="home">
+      <ul className="home__node-main">
+        <li>
           <EmployeeCard
             name={employees.employee_name}
             locationText={employees.region}
             role={employees.business_title}
             profileImage={employees.profile_pic}
           />
-        }
-        lineWidth={"2px"}
-        lineColor={"gray"}
-        lineBorderRadius={"8px"}
-      >
-        {employees.subordinates.map((employee) => {
-          return (
-            <>
-              <TreeNode
-                label={
-                  <EmployeeCard
-                    name={employee.employee_name}
-                    locationText={employee.region}
-                    role={employee.business_title}
-                    profileImage={employee.profile_pic}
-                    subordinates={employee.subordinates}
-                    department={employee.department}
-                  />
-                }
-              ></TreeNode>
-            </>
-          );
-        })}
-      </Tree>
+        </li>
+        <hr className="home__horLine" />
+        <ul className="home__node-child">
+          {employees.subordinates.map((employee) => {
+            return (
+              <li className="home__node-item" key={employee.employee_name}>
+                <EmployeeCard
+                  name={employee.employee_name}
+                  locationText={employee.region}
+                  role={employee.business_title}
+                  profileImage={employee.profile_pic}
+                  department={employee.department}
+                />
+              </li>
+            );
+          })}
+        </ul>
+      </ul>
     </div>
   );
 };

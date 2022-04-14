@@ -3,4 +3,47 @@
   height: 100vh;
   background-color: #f6f7f9;
   padding-top: 2rem;
+
+  &__node-main {
+    display: flex;
+    flex-direction: column;
+
+    & > li {
+      position: relative;
+    }
+
+    & > li ::after {
+      content: "";
+      background-color: #333;
+      position: absolute;
+      width: 2px;
+      height: 5rem;
+      left: 50%;
+      top: 100%;
+    }
+  }
+
+  &__horLine {
+    width: 67%;
+    height: 5rem;
+    background-color: transparent;
+    margin: 0 auto;
+    transform: translateY(5rem);
+    border: 2px solid #333;
+    border-bottom: none;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+  }
+
+  &__node-child {
+    display: flex;
+    flex-direction: row;
+    margin: 5rem auto;
+  }
+
+  &__node-item {
+    &:not(:last-child) {
+      margin-right: 10rem;
+    }
+  }
 }
