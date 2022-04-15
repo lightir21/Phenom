@@ -9,6 +9,7 @@ const EmployeeCard = ({
   profileImage,
   subordinates,
   department,
+  onClick,
 }) => {
   const departmentColor = (department) => {
     if (department?.toLowerCase() === "analytics & strategic info") {
