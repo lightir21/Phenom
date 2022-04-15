@@ -20,3 +20,15 @@ ul {
 
 $font-md: 1.6rem;
 $font-sm: 1.4rem;
+
+.hor {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.vert {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}

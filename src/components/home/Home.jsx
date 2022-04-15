@@ -1,25 +1,16 @@
 import React, { useState, useEffect } from "react";
-import { Tree, TreeNode } from "react-organizational-chart";
-
+import EmployeeContainer from "../employeeContainer/EmployeeContainer";
 import EmployeeCard from "../employeeCard/EmployeeCard";
 
 import "./home.scss";
 
 const Home = ({ employees }) => {
-  const [queryTerm, setQueryTerm] = useState("");
-  const [query, setQuery] = useState(null);
+  const [managerSubs, setManagerSubs] = useState(null);
+  const [managerIndex, setManagerIndex] = useState(null);
 
-  useEffect(() => {
-    if (queryTerm) {
-      const employee = employees.subordinates.filter(
-        (employee) => employee.employee_name === queryTerm
-      );
-      setQuery(employee);
-    }
-  }, [queryTerm]);
-
-  const handleClick = (employee) => {
-    return setQueryTerm(employee.employee_name);
+  const managerClicked = (employees, index) => {
+    setManagerSubs(employees);
+    setManagerIndex(index);
   };
 
   console.log(employees);
@@ -34,14 +25,17 @@ const Home = ({ employees }) => {
             profileImage={employees.profile_pic}
           />
         </li>
-        <hr className="home__horLine" />
+        <hr
+          className="home__horLine"
+          style={{ width: `${employees.subordinates.length * 35 - 35}rem` }}
+        />
         <ul className="home__node-child">
-          {employees.subordinates.map((employee) => {
+          {employees.subordinates.map((employee, index) => {
             return (
               <li
                 className="home__node-item"
                 key={employee.employee_name}
-                onClick={() => handleClick(employee)}
+                onClick={() => managerClicked(employee.subordinates, index)}
               >
                 <EmployeeCard
                   name={employee.employee_name}
@@ -50,34 +44,18 @@ const Home = ({ employees }) => {
                   profileImage={employee.profile_pic}
                   department={employee.department}
                 />
+                {!managerSubs && (
+                  <EmployeeContainer
+                    employeeCards={employee.subordinates}
+                    style="vertical"
+                  />
+                )}
               </li>
             );
           })}
-        </ul>
-        {query && (
-          <>
-            <hr
-              className="home__horLine"
-              style={{ width: `${query[0].subordinates.length * 35 - 35}rem` }}
-            />
-          </>
-        )}
-
-        <ul className="home__node-child">
-          {query &&
-            query[0].subordinates.map((employee) => {
-              return (
-                <li className="home__node-item" key={employee.employee_name}>
-                  <EmployeeCard
-                    name={employee.employee_name}
-                    locationText={employee.region}
-                    role={employee.business_title}
-                    profileImage={employee.profile_pic}
-                    department={employee.department}
-                  />
-                </li>
-              );
-            })}
+          {managerSubs && (
+            <EmployeeContainer employeeCards={managerSubs} style="horizontal" />
+          )}
         </ul>
       </ul>
     </div>

@@ -21,7 +21,6 @@
   }
 
   &__horLine {
-    width: 67%;
     height: 5rem;
     background-color: transparent;
     margin: 0 auto;
@@ -32,10 +31,35 @@
     border-top-right-radius: 100px;
   }
 
+  &__vertLine {
+    width: 5rem;
+
+    background-color: transparent;
+
+    border: 2px solid #333;
+    border-right: none;
+    border-top: none;
+    color: transparent;
+    border-bottom-left-radius: 100px;
+
+    position: absolute;
+
+    top: 0;
+    left: -22.5%;
+  }
+
   &__node-child {
     display: flex;
     flex-direction: row;
     margin: 5rem auto;
+    position: relative;
+
+    &--vert {
+      flex-direction: column;
+      position: absolute;
+      left: 15%;
+      top: 80%;
+    }
   }
 
   &__node-item {
@@ -43,14 +67,22 @@
       margin-right: 10rem;
 
       position: relative;
-      &:not(:first-child, :last-child)::before {
-        content: "";
-        height: 5rem;
-        width: 2px;
-        background-color: #333;
-        position: absolute;
-        top: -5rem;
-        left: 50%;
+    }
+
+    &:not(:first-child, :last-child)::before {
+      content: "";
+      height: 5rem;
+      width: 2px;
+      background-color: #333;
+      position: absolute;
+      top: -5rem;
+      left: 50%;
+    }
+    &--vert {
+      &:not(:last-child) {
+        margin-bottom: 10rem;
+
+        position: relative;
       }
     }
   }
