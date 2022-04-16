@@ -25,15 +25,18 @@ $font-sm: 1.4rem;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+  transform: translateY(5rem);
 }
 
 .vert {
   display: flex;
   flex-direction: column;
-
+  margin-top: -2rem;
   transform: translateX(6rem);
+  justify-content: space-evenly;
 }
 
 .layer {
   display: flex;
+  justify-content: center;
 }

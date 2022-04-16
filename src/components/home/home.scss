@@ -4,6 +4,7 @@
   &__node-main {
     display: flex;
     flex-direction: column;
+    align-items: center;
 
     & > li {
       position: relative;
@@ -11,7 +12,7 @@
 
     & > li ::after {
       content: "";
-      background-color: #333;
+      background-color: #999;
       position: absolute;
       width: 2px;
       height: 5rem;
@@ -25,10 +26,11 @@
     background-color: transparent;
     margin: 0 auto;
     transform: translateY(5rem);
-    border: 2px solid #333;
+    border: 2px solid #999;
     border-bottom: none;
     border-top-left-radius: 100px;
     border-top-right-radius: 100px;
+    display: block;
   }
 
   &__vertLine {
@@ -36,7 +38,7 @@
 
     background-color: transparent;
     transform: translateY(-5rem);
-    border: 2px solid #333;
+    border: 2px solid #999;
     border-right: none;
     border-top: none;
     color: transparent;
@@ -53,6 +55,7 @@
     flex-direction: column;
     margin: 5rem auto;
     position: relative;
+    width: 100%;
 
     &--vert {
       flex-direction: column;
@@ -73,7 +76,7 @@
       content: "";
       height: 5rem;
       width: 2px;
-      background-color: #333;
+      background-color: #999;
       position: absolute;
       top: -5rem;
       left: 50%;
