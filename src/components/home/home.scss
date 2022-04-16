@@ -35,7 +35,7 @@
     width: 5rem;
 
     background-color: transparent;
-
+    transform: translateY(-5rem);
     border: 2px solid #333;
     border-right: none;
     border-top: none;
@@ -50,7 +50,7 @@
 
   &__node-child {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     margin: 5rem auto;
     position: relative;
 

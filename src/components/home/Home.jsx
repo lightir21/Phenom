@@ -30,29 +30,31 @@ const Home = ({ employees }) => {
           style={{ width: `${employees.subordinates.length * 35 - 35}rem` }}
         />
         <ul className="home__node-child">
-          {employees.subordinates.map((employee, index) => {
-            return (
-              <li
-                className="home__node-item"
-                key={employee.employee_name}
-                onClick={() => managerClicked(employee.subordinates, index)}
-              >
-                <EmployeeCard
-                  name={employee.employee_name}
-                  locationText={employee.region}
-                  role={employee.business_title}
-                  profileImage={employee.profile_pic}
-                  department={employee.department}
-                />
-                {!managerSubs && (
-                  <EmployeeContainer
-                    employeeCards={employee.subordinates}
-                    style="vertical"
+          <div className="layer">
+            {employees.subordinates.map((employee, index) => {
+              return (
+                <li
+                  className="home__node-item"
+                  key={employee.employee_name}
+                  onClick={() => managerClicked(employee.subordinates, index)}
+                >
+                  <EmployeeCard
+                    name={employee.employee_name}
+                    locationText={employee.region}
+                    role={employee.business_title}
+                    profileImage={employee.profile_pic}
+                    department={employee.department}
                   />
-                )}
-              </li>
-            );
-          })}
+                  {!managerSubs && (
+                    <EmployeeContainer
+                      employeeCards={employee.subordinates}
+                      style="vertical"
+                    />
+                  )}
+                </li>
+              );
+            })}
+          </div>
           {managerSubs && (
             <EmployeeContainer employeeCards={managerSubs} style="horizontal" />
           )}

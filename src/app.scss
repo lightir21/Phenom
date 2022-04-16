@@ -30,5 +30,10 @@ $font-sm: 1.4rem;
 .vert {
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+
+  transform: translateX(6rem);
+}
+
+.layer {
+  display: flex;
 }

@@ -7,9 +7,13 @@ const styles = {
 };
 
 const EmployeeContainer = ({ employeeCards, index, style }) => {
-  console.log(employeeCards);
+  console.log(employeeCards.length);
   return (
     <div className={`${styles[style]}`}>
+      <hr
+        className={`home__${styles[style]}Line`}
+        style={{ height: `${employeeCards.length * 35 - 35}rem` }}
+      />
       {employeeCards.map(
         ({
           employee_name,
@@ -20,14 +24,16 @@ const EmployeeContainer = ({ employeeCards, index, style }) => {
           department,
         }) => {
           return (
-            <EmployeeCard
-              name={employee_name}
-              role={business_title}
-              locationText={region}
-              profileImage={profile_pic}
-              department={department}
-              subordinates={subordinates}
-            />
+            <>
+              <EmployeeCard
+                name={employee_name}
+                role={business_title}
+                locationText={region}
+                profileImage={profile_pic}
+                department={department}
+                subordinates={subordinates}
+              />
+            </>
           );
         }
       )}
