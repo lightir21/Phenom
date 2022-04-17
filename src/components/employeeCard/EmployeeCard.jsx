@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "./EmployeeCard.scss";
 import {
   BsBuilding,
@@ -20,6 +20,12 @@ const EmployeeCard = ({
   profile,
   tel,
 }) => {
+  const [isActice, setIsActive] = useState(null);
+
+  const onClickActive = () => {
+    return setIsActive(!isActice);
+  };
+
   const departmentColor = (department) => {
     if (department?.toLowerCase() === "analytics & strategic info") {
       return "#c10000";
@@ -38,6 +44,7 @@ const EmployeeCard = ({
   return (
     <>
       <div
+        onClick={onClickActive}
         className={`card ${style === "horizontal" ? "home__node-item" : ""} `}
       >
         <div className="card__info">
@@ -59,7 +66,7 @@ const EmployeeCard = ({
             <p className="card__location-text">{locationText}</p>
           </div>
         </div>
-        <div className="card__icons-container ">
+        <div className={`card__icons-container ${isActice ? "active" : null}`}>
           <BsTelephone className="card__icon tel" />
           <BsEnvelopeFill className="card__icon email" />
           <BsFillPersonFill className="card__icon profile" />
