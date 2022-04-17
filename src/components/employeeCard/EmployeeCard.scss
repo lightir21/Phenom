@@ -17,6 +17,10 @@
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
   }
 
+  &:active {
+    border: 1px solid #c10000;
+  }
+
   &__info {
     display: flex;
     flex-direction: column;
