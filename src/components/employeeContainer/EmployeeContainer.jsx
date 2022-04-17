@@ -7,7 +7,6 @@ const styles = {
 };
 
 const EmployeeContainer = ({ employeeCards, index, style }) => {
-  console.log(employeeCards.length);
   return (
     <>
       {style === "horizontal" && (

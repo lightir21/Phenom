@@ -18,7 +18,6 @@ const Home = ({ employees }) => {
     setExpandedManager(employee);
   };
 
-  console.log(employees);
   return (
     <div className="home">
       <ul className="home__node-main">
