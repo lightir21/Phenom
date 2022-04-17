@@ -34,6 +34,20 @@ $font-sm: 1.4rem;
   margin-top: -2rem;
   transform: translateX(6rem);
   justify-content: space-evenly;
+
+  & > .card {
+    position: relative;
+  }
+
+  & > .card:not(:last-child, :first-child)::before {
+    content: "";
+    width: 5.2rem;
+    height: 0.3rem;
+    background-color: #999;
+    position: absolute;
+    top: 50%;
+    left: -5.2rem;
+  }
 }
 
 .layer {

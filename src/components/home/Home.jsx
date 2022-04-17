@@ -6,11 +6,16 @@ import "./home.scss";
 
 const Home = ({ employees }) => {
   const [managerSubs, setManagerSubs] = useState(null);
-  const [managerIndex, setManagerIndex] = useState(null);
+  const [expandedManager, setExpandedManager] = useState(null);
 
-  const managerClicked = (employees, index) => {
+  const managerClicked = (employees, employee) => {
+    if (employee === expandedManager) {
+      setManagerSubs(null);
+      setExpandedManager(null);
+      return;
+    }
     setManagerSubs(employees);
-    setManagerIndex(index);
+    setExpandedManager(employee);
   };
 
   console.log(employees);
@@ -23,6 +28,9 @@ const Home = ({ employees }) => {
             locationText={employees.region}
             role={employees.business_title}
             profileImage={employees.profile_pic}
+            email={employees?.contact?.email}
+            profile={employees?.contact?.profile}
+            tel={employees?.contact?.tel}
           />
         </li>
         <hr
@@ -44,7 +52,11 @@ const Home = ({ employees }) => {
                     role={employee.business_title}
                     profileImage={employee.profile_pic}
                     department={employee.department}
+                    email={employee?.contact?.email}
+                    profile={employee?.contact?.profile}
+                    tel={employee?.contact?.tel}
                   />
+
                   {!managerSubs && (
                     <EmployeeContainer
                       employeeCards={employee.subordinates}
@@ -56,7 +68,12 @@ const Home = ({ employees }) => {
             })}
           </div>
           {managerSubs && (
-            <EmployeeContainer employeeCards={managerSubs} style="horizontal" />
+            <>
+              <EmployeeContainer
+                employeeCards={managerSubs}
+                style="horizontal"
+              />
+            </>
           )}
         </ul>
       </ul>

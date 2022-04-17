@@ -5,13 +5,23 @@
   background-color: #fff;
   cursor: pointer;
   border-radius: 10px;
-
-  margin-bottom: 7rem;
+  line-height: 2.4;
+  margin-bottom: 8rem;
+  transition: all 0.3s;
 
   display: flex;
   flex-direction: column;
 
-  line-height: 2.4;
+  &:hover {
+    transform: translateY(-0.2rem);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  }
+
+  &__info {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
 
   &__img {
     width: 6rem;
@@ -52,6 +62,36 @@
 
     &-text {
       display: inline;
+    }
+  }
+
+  &__icons-container {
+    display: none;
+  }
+
+  &__icons-container.active {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    background-color: #fff;
+    padding-bottom: 1rem;
+
+    .card__icon {
+      width: 2.4rem;
+      height: 1.6rem;
+      padding: 2rem;
+      background-color: #f6f7f9;
+
+      &:first-child {
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        background-color: #2245d9cc;
+      }
+      &:last-child {
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+      }
     }
   }
 }
