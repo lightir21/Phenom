@@ -67,9 +67,24 @@ const EmployeeCard = ({
           </div>
         </div>
         <div className={`card__icons-container ${isActice ? "active" : null}`}>
-          <BsTelephone className="card__icon tel" />
-          <BsEnvelopeFill className="card__icon email" />
-          <BsFillPersonFill className="card__icon profile" />
+          <BsTelephone
+            className="card__icon tel"
+            onClick={() => {
+              navigator.clipboard.writeText(tel);
+            }}
+          />
+          <BsEnvelopeFill
+            className="card__icon email"
+            onClick={() => {
+              navigator.clipboard.writeText(email);
+            }}
+          />
+          <BsFillPersonFill
+            className="card__icon profile"
+            onClick={() => {
+              navigator.clipboard.writeText(profile);
+            }}
+          />
         </div>
       </div>
     </>
