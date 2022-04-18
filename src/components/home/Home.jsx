@@ -38,12 +38,12 @@ const Home = ({ employees }) => {
         />
         <ul className="home__node-child">
           <div className="layer">
-            {employees.subordinates.map((employee, index) => {
+            {employees.subordinates.map((employee) => {
               return (
                 <li
                   className="home__node-item"
                   key={employee.employee_name}
-                  onClick={() => managerClicked(employee.subordinates, index)}
+                  onClick={() => managerClicked(employee.subordinates)}
                 >
                   <EmployeeCard
                     name={employee.employee_name}

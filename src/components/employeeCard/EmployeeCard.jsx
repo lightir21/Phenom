@@ -50,7 +50,7 @@ const EmployeeCard = ({
         <div className="card__info">
           <img
             src={profileImage}
-            alt="profile picture"
+            alt={`profile image of ${name}`}
             className="card__img"
             onError={(e) => {
               e.currentTarget.onerror = null;
